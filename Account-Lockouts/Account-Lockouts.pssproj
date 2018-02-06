@@ -28,6 +28,7 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="3.0.lockout.ps1" />
+    <Compile Include="ParseNetLogon-StandAlone.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
